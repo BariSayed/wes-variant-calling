@@ -1,0 +1,43 @@
+# Sequencing data & large intermediates (regenerate by running the pipeline)
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sam
+*.bam
+*.bam.bai
+*.sorted.bam
+*.cram
+
+# Reference & indices
+*.fasta
+*.fa
+*.fna
+*.fai
+*.bt2
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+
+# Variant & QC outputs
+*.vcf
+*.vcf.gz
+*.tbi
+fastqc_reports/
+trimmed_reads/
+multiqc_data/
+multiqc_report.html
+
+# SRA cache
+sra/
+ncbi_dataset*/
+*.sra
+*.lite.*
+*.zip
+
+# Misc
+.DS_Store
+__pycache__/
+*.log
